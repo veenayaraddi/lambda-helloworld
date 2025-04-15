@@ -10,7 +10,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  AWS_ACCOUNT_ID: 557548602903
+  AWS_ACCOUNT_ID: 116981791124
 
 jobs:
   terraform-deploy:
