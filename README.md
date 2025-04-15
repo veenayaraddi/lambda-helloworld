@@ -1,1 +1,1 @@
-# lambda-helloworld
+# lamda
