@@ -5,7 +5,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: my-ecr-repository
+  ECR_REPOSITORY: lambda-taskrepo
   IMAGE_TAG: version1  # Updated to a valid tag format
   AWS_ACCOUNT_ID: 116981791124
 
