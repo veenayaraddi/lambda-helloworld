@@ -1,4 +1,4 @@
-name: Build & Push Docker to ECR
+name: oidc Build & Push Docker to ECR
 
 on:
   workflow_dispatch:
