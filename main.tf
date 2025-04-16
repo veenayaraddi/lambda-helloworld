@@ -12,7 +12,7 @@ resource "aws_lambda_function" "lambda" {
 }
 
 resource "aws_iam_role" "lambda_execution_role" {
-  name = "lambda_execution_role"
+  name = "lambda_execution_role_new"
   
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
@@ -28,6 +28,7 @@ resource "aws_iam_role" "lambda_execution_role" {
     ]
   })
 }
+
 
 resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
   role       = aws_iam_role.lambda_execution_role.name
